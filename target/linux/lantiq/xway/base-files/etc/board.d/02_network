@@ -15,6 +15,7 @@ lantiq_setup_interfaces()
 		ucidef_add_switch "switch0" \
 			"0:lan:4" "2:lan:2" "1:lan:3" "3:lan:1" "5t@eth0"
 		;;
+	airties,air6271|\
 	arcadyan,arv4519pw|\
 	arcadyan,arv7510pw22|\
 	arcadyan,arv7518pw|\
