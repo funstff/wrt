@@ -7,7 +7,7 @@ define Device/airties_air6271
   	kmod-ltq-adsl-danube-mei kmod-ltq-adsl-danube \
 	kmod-ltq-adsl-danube-fw-b kmod-ltq-atm-danube \
 	ltq-adsl-app ppp-mod-pppoa \
-	kmod-rt2800-pci wpad-basic-wolfssl
+	kmod-rt2800-pci kmod-ath5k wpad-basic-wolfssl
   SUPPORTED_DEVICES += Air6271
 endef
 TARGET_DEVICES += airties_air6271
