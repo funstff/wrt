@@ -1,3 +1,18 @@
+define Device/airties_air6271
+  DEVICE_VENDOR := Airties
+  DEVICE_MODEL := Air6271
+  BOARD_NAME := ARV4519PW
+  IMAGE_SIZE := 0000k
+  SOC := danube	
+  DEVICE_PACKAGES := kmod-usb-dwc2 kmod-usb-ledtrig-usbport \
+  	kmod-ltq-adsl-danube-mei kmod-ltq-adsl-danube \
+	kmod-ltq-adsl-danube-fw-b kmod-ltq-atm-danube \
+	ltq-adsl-app ppp-mod-pppoa \
+	kmod-rt2800-pci wpad-basic-wolfssl
+  SUPPORTED_DEVICES += Air6271
+endef
+TARGET_DEVICES += airties_air6271
+
 define Device/arcadyan_arv4510pw
   DEVICE_VENDOR := Arcadyan
   DEVICE_MODEL := ARV4510PW
