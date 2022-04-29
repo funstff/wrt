@@ -1,7 +1,7 @@
 define Device/airties_air6271
   DEVICE_VENDOR := Airties
   DEVICE_MODEL := Air6271
-  IMAGE_SIZE := 0000k
+  IMAGE_SIZE := 7808k
   SOC := danube	
   DEVICE_PACKAGES := kmod-usb-dwc2 kmod-usb-ledtrig-usbport \
   	kmod-ltq-adsl-danube-mei kmod-ltq-adsl-danube \
