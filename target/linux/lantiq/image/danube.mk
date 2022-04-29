@@ -1,7 +1,6 @@
 define Device/airties_air6271
   DEVICE_VENDOR := Airties
   DEVICE_MODEL := Air6271
-  BOARD_NAME := ARV4519PW1
   IMAGE_SIZE := 0000k
   SOC := danube	
   DEVICE_PACKAGES := kmod-usb-dwc2 kmod-usb-ledtrig-usbport \
